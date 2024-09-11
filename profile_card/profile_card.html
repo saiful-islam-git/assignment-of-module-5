@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Card</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f4f8;
+      }
+
+      .profile-card {
+        background-color: #ffffff;
+        width: 350px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+      }
+
+      .profile-card img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .profile-card h1 {
+        font-size: 24px;
+        color: #333;
+        margin-top: 15px;
+      }
+
+      .profile-card h3 {
+        font-size: 18px;
+        color: #777;
+        margin-bottom: 15px;
+      }
+
+      .profile-card p {
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+      }
+
+      .profile-card .contact-info {
+        font-size: 14px;
+        color: #666;
+      }
+
+      .contact-info a {
+        text-decoration: none;
+        color: #007bff;
+      }
+
+      /* Ensure the card is centered horizontally and vertically */
+      body,
+      html {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <img src="https://via.placeholder.com/100" alt="Profile Image" />
+      <h1>John Doe</h1>
+      <h3>Web Developer</h3>
+      <p>
+        I am a passionate web developer with experience in building
+        responsive websites and applications using HTML, CSS, JavaScript, and
+        PHP.
+      </p>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:johndoe@example.com">johndoe@example.com</a></p>
+        <p>Mobile: +123 456 7890</p>
+      </div>
+    </div>
+  </body>
+</html>
